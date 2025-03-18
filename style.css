@@ -6,6 +6,7 @@
 
 body {
   margin: 0px;
+  background-color: #e2f5fa;
 }
 
 a {
@@ -54,4 +55,106 @@ a {
   background-color: rgba(107, 183, 203, 0.4);
   border-radius: 10px;
   transition: 1s;
+}
+
+/* Banner 1 */
+
+.banner1 {
+  width: 1180px;
+  height: 450px;
+  flex-shrink: 0;
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px 370px 30px 180px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #f8f8ff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.conteudo {
+  position: absolute;
+  align-self: start;
+  display: grid;
+  padding: 48px 680px 318px 80px;
+}
+
+.entre_contato {
+  position: absolute;
+  align-self: start;
+  padding: 202px 817px 176px 80px;
+}
+
+.conteudo h2 {
+  width: 500px;
+
+  color: #063643;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+
+.entre_contato a {
+  font-family: "Poppins";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  width: 260px;
+  height: 50px;
+  padding: 10px 5px;
+  border: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  background-color: #0f637a;
+  color: white;
+  border-radius: 8px;
+}
+
+.figura {
+  position: absolute;
+  padding: 0px 0.16px 167.16px 897px;
+}
+
+.banner1_imagem {
+  position: relative;
+  bottom: -180px;
+  right: -100px;
+}
+
+#animais {
+  position: absolute;
+  bottom: 0px;
+  left: -310px;
+}
+
+#gato {
+  position: absolute;
+  bottom: 0px;
+  right: -400px;
+}
+
+#grupo_animais {
+  position: absolute;
+  bottom: 0px;
+  right: -270px;
+}
+
+.entre_contato a:hover {
+  background-color: #7ccbe0;
+  color: #0f637a;
+  transition: 0.5s;
 }
