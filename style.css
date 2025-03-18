@@ -47,4 +47,12 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  gap: 12px;
+  padding: 0px 4px;
+}
+
+#navegar a:hover {
+  background-color: rgba(107, 183, 203, 0.4);
+  border-radius: 10px;
+  transition: 1s;
 }
