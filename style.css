@@ -109,8 +109,8 @@ a {
   font-weight: 700;
   line-height: normal;
 
-  width: 260px;
-  height: 50px;
+  width: 283px;
+  height: 72px;
   padding: 10px 5px;
   border: 8px;
   display: flex;
@@ -157,4 +157,132 @@ a {
   background-color: #7ccbe0;
   color: #0f637a;
   transition: 0.5s;
+}
+
+/* Primeiro Carrossel */
+
+.carrossel_1 {
+  width: 1180px;
+  height: 332px;
+  margin: 30px 370px 30px 180px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#voltar,
+#avancar {
+  width: 42.909px;
+  height: 40px;
+
+  background-color: #e2f5fa;
+  border: none;
+}
+
+.imagem_carrossel {
+  width: 1094.182px;
+  height: 300px;
+
+  position: relative;
+  display: flex;
+}
+
+.imagem_carrossel h2,
+.imagem_carrossel a {
+  font-family: "Poppins";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.imagem_carrossel p {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+
+.parte_1 {
+  width: 1094.182px;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: #63b3c9;
+}
+
+.parte_1,
+.parte_3 h2 {
+  color: #063643;
+}
+
+.parte_1 h2 {
+  position: absolute;
+  padding: 24px 214.18px 234px 502px;
+}
+
+.parte_1 p {
+  position: absolute;
+  padding: 78px 273.18px 192px 510px;
+}
+
+.parte_1 a {
+  color: #063643;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: none;
+  outline: none;
+
+  width: 283px;
+  height: 72px;
+  padding: 10px 5px;
+
+  justify-content: center;
+  align-content: center;
+}
+
+.parte_1_imagem {
+  position: relative;
+  bottom: -50px;
+  right: -50px;
+}
+
+#pata1 {
+  position: absolute;
+  left: -21px;
+  top: -30px;
+}
+
+#ciringa {
+  position: absolute;
+  left: 50px;
+  bottom: -200px;
+}
+
+.parte_1_imagem a {
+  position: absolute;
+  left: 460px;
+  bottom: -170px;
+}
+
+#gato_pata {
+  position: absolute;
+  left: 830px;
+  bottom: -245px;
+}
+
+#pata2 {
+  position: absolute;
+  bottom: -230px;
+  left: 200px;
+}
+
+#posicao_1 {
+  position: absolute;
+  bottom: -280px;
+  right: 545px;
 }
