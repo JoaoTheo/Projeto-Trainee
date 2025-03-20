@@ -16,6 +16,7 @@ a {
 /* Cabeçalho */
 .cabecalho {
   display: flex;
+
   padding: 35px 170px 35.176px 190px;
   justify-content: space-between;
   align-items: center;
@@ -70,7 +71,7 @@ a {
   justify-content: center;
   align-items: center;
 
-  margin: 20px 370px 30px 180px;
+  margin: 20px auto;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.15);
   background: #f8f8ff;
@@ -163,8 +164,9 @@ a {
 
 .carrossel_1 {
   width: 1180px;
-  height: 332px;
-  margin: 30px 370px 30px 180px;
+  height: 330px;
+  margin: 10px auto 30px auto;
+  overflow: hidden;
 
   display: flex;
   align-items: center;
@@ -206,6 +208,12 @@ a {
   letter-spacing: 0.4px;
 }
 
+.parte_1 .parte_2 .parte_3 {
+  width: 33.3%;
+  position: relative;
+}
+
+/* Banner 1 do carrossel */
 .parte_1 {
   width: 1094.182px;
   height: 300px;
@@ -222,11 +230,13 @@ a {
 .parte_1 h2 {
   position: absolute;
   padding: 24px 214.18px 234px 502px;
+  white-space: nowrap;
 }
 
 .parte_1 p {
   position: absolute;
   padding: 78px 273.18px 192px 510px;
+  white-space: nowrap;
 }
 
 .parte_1 a {
@@ -285,4 +295,201 @@ a {
   position: absolute;
   bottom: -280px;
   right: 545px;
+}
+
+/* Banner 2 do Carrossel */
+
+.parte_2 {
+  width: 1094.182px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: #063643;
+  background-image: url(carrossel/fundo2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.parte_2 h2 {
+  color: white;
+  position: absolute;
+  padding: 24px 698px 234px 64px;
+  white-space: nowrap;
+}
+
+.parte_2 p {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  white-space: nowrap;
+
+  position: absolute;
+  padding: 89px 511px 130px 64px;
+}
+
+.parte_2 a {
+  color: #063643;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: none;
+  outline: none;
+
+  width: 283px;
+  height: 72px;
+  padding: 10px 5px;
+
+  justify-content: center;
+  align-content: center;
+}
+
+.parte_2_imagem {
+  position: relative;
+  bottom: -50px;
+  right: -200px;
+}
+
+.parte_2_imagem a {
+  position: absolute;
+  bottom: -230px;
+  left: -115px;
+}
+
+#cachorro_dourado {
+  position: absolute;
+  bottom: -250px;
+  right: 450px;
+}
+
+#gato_lado {
+  position: absolute;
+  top: -50px;
+  right: 200px;
+}
+
+/* Banner 2 do Carrossel */
+
+.parte_3 {
+  width: 1094.182px;
+  height: 300px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  background-image: url(carrossel/fundo3.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.parte_3 h2 {
+  position: absolute;
+  padding: 24px 383.18px 234px 64px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.parte_3 p {
+  position: absolute;
+  padding: 78px 434.18px 162px 64px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.parte_3 a {
+  color: #063643;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: none;
+  outline: none;
+
+  width: 283px;
+  height: 72px;
+  padding: 10px 5px;
+  z-index: 1;
+
+  justify-content: center;
+  align-content: center;
+}
+
+.parte_3_imagem {
+  position: relative;
+  bottom: -100px;
+  right: -200px;
+}
+
+.parte_3_imagem a {
+  position: absolute;
+  bottom: -175px;
+  left: -110px;
+}
+
+#guarda_chuva {
+  position: absolute;
+  left: -200px;
+  top: -100px;
+}
+
+#gato_banho {
+  position: absolute;
+  top: -100px;
+  right: 220px;
+}
+
+/* Mundança de cor dos botões */
+.partes a:hover {
+  background: #063643;
+  color: white;
+  transition: 0.2s;
+}
+
+.parte_3 a:hover {
+  background: #063643;
+  color: white;
+  transition: 0.2s;
+}
+
+.partes input {
+  display: none;
+}
+
+.manual_navigation {
+  position: absolute;
+  width: 800px;
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual_btn {
+  background: rgba(163, 163, 163, 1);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.manual_btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+#radio1:checked ~ .parte_1 {
+  margin-top: 0;
+}
+
+#radio2:checked ~ .parte_1 {
+  margin-top: -29.3%;
+}
+
+#radio3:checked ~ .parte_1 {
+  margin-top: -60.2%;
+}
+
+.navigation_auto div {
+  border: 2px solid #20a6ff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
 }
