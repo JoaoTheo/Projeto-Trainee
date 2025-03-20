@@ -306,7 +306,7 @@ a {
   border-radius: 8px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #063643;
-  background-image: url(carrossel/fundo2.png);
+  background-image: url(imgs/carrossel/fundo2.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -379,7 +379,7 @@ a {
   border-radius: 8px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: white;
-  background-image: url(carrossel/fundo3.png);
+  background-image: url(imgs/carrossel/fundo3.png);
   background-repeat: no-repeat;
   background-position: right;
 }
