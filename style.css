@@ -486,10 +486,3 @@ a {
 #radio3:checked ~ .parte_1 {
   margin-top: -60.2%;
 }
-
-.navigation_auto div {
-  border: 2px solid #20a6ff;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-}
