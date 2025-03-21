@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <!-- Fontes -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <title>Pindorama Pets</title>
 </head>
@@ -10,19 +15,19 @@
 <body>
     <div class="cabecalho">
         <div id="logo_cabecalho">
-            <img src="logo/Logo-horizontal.png" alt="">
+            <img src="imgs/logo/Logo-horizontal.png" alt="">
         </div>
         <div id="navegar">
             <a href="/">Início</a>
-            <a href="/">Serviços</a>
-            <a href="/">Sobre nós</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#quem_somos">Sobre nós</a>
             <a href="/">Contato</a>
         </div>
     </div>
 
     <div class="banner1">
         <div class="figura">
-            <img id="onda" src="banner1/Waveform.png" alt="Detalhe">
+            <img id="onda" src="imgs/banner1/Waveform.png" alt="Detalhe">
         </div>
         <div class="conteudo">
             <h2>Cuidando do Seu Pet com Profissionalismo e Carinho </h2>
@@ -33,14 +38,14 @@
         </div>
 
         <div class="banner1_imagem">
-            <img id="animais" src="banner1/animais2.png" alt="Animais">
-            <img id="grupo_animais" src="banner1/animais1.png" alt="Grupo de animais">
-            <img id="gato" src="banner1/gato.png" alt="Gato">
+            <img id="animais" src="imgs/banner1/animais2.png" alt="Animais">
+            <img id="grupo_animais" src="imgs/banner1/animais1.png" alt="Grupo de animais">
+            <img id="gato" src="imgs/banner1/gato.png" alt="Gato">
         </div>
     </div>
 
     <div class="carrossel_1">
-        <button id="voltar"><img src="carrossel/flecha_volta.png" alt="Botão voltar"></button>
+        <button id="voltar"><img src="imgs/carrossel/flecha_volta.png" alt="Botão voltar"></button>
 
         <div class="imagem_carrossel">
 
@@ -55,10 +60,10 @@
                     <p>Nos dias 19 a 28 de novembro</p>
                     <div class="parte_1_imagem">
                         <a href="/">Saiba mais</a>
-                        <img id="pata1" src="carrossel/pata1.png" alt="Pata">
-                        <img id="ciringa" src="carrossel/ciringa.png" alt="Ciringa">
-                        <img id="pata2" src="carrossel/pata2.png" alt="Pata 2">
-                        <img id="gato_pata" src="carrossel/gato.png" alt="Gato com a pata levantada">
+                        <img id="pata1" src="imgs/carrossel/pata1.png" alt="Pata">
+                        <img id="ciringa" src="imgs/carrossel/ciringa.png" alt="Ciringa">
+                        <img id="pata2" src="imgs/carrossel/pata2.png" alt="Pata 2">
+                        <img id="gato_pata" src="imgs/carrossel/gato.png" alt="Gato com a pata levantada">
                     </div>
                 </div>
 
@@ -67,8 +72,8 @@
                     <p>Dê um lar cheio de amor a quem só quer te fazer feliz! <br> Adote um amigo de quatro patas e transforme sua <br> vida e a dele.</p>
                     <div class="parte_2_imagem">
                         <a href="/">Saiba mais</a>
-                        <img id="cachorro_dourado" src="carrossel/cachorro.png" alt="Cachorro dourado">
-                        <img id="gato_lado" src="carrossel/gato_lado.png" alt="Gato de lado">
+                        <img id="cachorro_dourado" src="imgs/carrossel/cachorro.png" alt="Cachorro dourado">
+                        <img id="gato_lado" src="imgs/carrossel/gato_lado.png" alt="Gato de lado">
                     </div>
                 </div>
 
@@ -77,8 +82,8 @@
                     <p>Nossa clínica dispõe do serviço de higiene para seu Pet <br> permanecer limpo, cheiroso e longe de parasitas. </p>
                     <div class="parte_3_imagem">
                         <a href="/">Saiba mais</a>
-                        <img id="guarda_chuva" src="carrossel/guarda_chuva.png" alt="Guarda Chuva">
-                        <img id="gato_banho" src="carrossel/gato_banho.png" alt="Gato banho">
+                        <img id="guarda_chuva" src="imgs/carrossel/guarda_chuva.png" alt="Guarda Chuva">
+                        <img id="gato_banho" src="imgs/carrossel/gato_banho.png" alt="Gato banho">
                     </div>
                 </div>
 
@@ -86,13 +91,35 @@
 
         </div>
 
-        <button id="avancar"><img src="carrossel/flecha_frente.png" alt="Botão avançar"></button>
+        <button id="avancar"><img src="imgs/carrossel/flecha_frente.png" alt="Botão avançar"></button>
 
         <div class="manual_navigation">
             <label for="radio1" class="manual_btn"></label>
             <label for="radio2" class="manual_btn"></label>
             <label for="radio3" class="manual_btn"></label>
 
+        </div>
+
+    </div>
+
+    <div class="informativo">
+        <div class="quem_somos1" id="quem_somos">
+            <h2>Quem somos?</h2>
+            <p>Nossa clínica veterinária é comprometida com o cuidado e bem-estar <br> de cada pet, com uma equipe dedicada e instalações modernas, <br> buscamos garantir saúde e conforto em cada atendimento. Cuidamos <br> do seu animalzinho como se fosse nosso!</p>
+            <div class="quem_somos_imagens">
+                <img id="icon" src="imgs/banner_descricao/logo-icon.png" alt="Ícone">
+                <img id="nome" src="imgs/banner_descricao/Logo-name.png" alt="Nome">
+            </div>
+        </div>
+        <div class="servicos1" id="servicos">
+
+            <h2>Nossos serviços</h2>
+            <p>Na nossa clínica veterinária, cada consulta é realizada com <br> dedicação e atenção aos detalhes, garantindo o melhor cuidado <br> para o seu pet. Contamos com uma equipe experiente e <br> atualizada para oferecer diagnósticos precisos e tratamentos <br> eficazes. </p>
+            <img id="doutora_gato" src="imgs/banner_descricao/doutora_gato.png" alt="Examinando gato">
+        </div>
+        <div class="servicos2">
+            <p>Nós cuidamos do seu pet com o carinho e respeito que ele <br> merece. Nossa equipe dedica atenção a cada detalhe, <br> proporcionando um ambiente acolhedor e seguro para que seu <br> animalzinho se sinta em casa. </p>
+            <img src="imgs/banner_descricao/doutora_cao.png" alt="Examinando cão">
         </div>
 
     </div>
