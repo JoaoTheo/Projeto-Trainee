@@ -47,7 +47,7 @@
   justify-content: center;
 
   background-image: url(/imgs/banner_descricao/fundo-animais-icons2.png);
-  background-color: rgba(99, 179, 201, 1);
+  background-color: rgba(99, 179, 201, 0.7);
 }
 
 .quem_somos1 p {
@@ -89,7 +89,7 @@
   align-items: center;
   justify-content: center;
   background-image: url(/imgs/banner_descricao/fundo-animais-icons2.png);
-  background-color: #6bb7cb;
+  background-color: rgba(81, 162, 184, 1);
 }
 
 .servicos1 h2 {
@@ -117,7 +117,7 @@
   align-items: center;
   justify-content: center;
   background-image: url(/imgs/banner_descricao/fundo-animais-icons2.png);
-  background-color: rgba(99, 179, 201, 1);
+  background-color: rgba(99, 179, 201, 0.7);
 }
 
 .servicos2 p {
