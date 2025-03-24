@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/profissionais.css">
     <link rel="stylesheet" href="css/comentario.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/rodape.css">
     <!-- Fontes -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -20,14 +22,14 @@
             <img src="imgs/logo/Logo-horizontal.png" alt="">
         </div>
         <div id="navegar">
-            <a href="/">Início</a>
+            <a href="#banner1">Início</a>
             <a href="#servicos">Serviços</a>
             <a href="#quem_somos">Sobre nós</a>
-            <a href="/">Contato</a>
+            <a href="#contato">Contato</a>
         </div>
     </div>
 
-    <div class="banner1">
+    <div class="banner1" id="banner1">
         <div class="figura">
             <img id="onda" src="imgs/banner1/Waveform.png" alt="Detalhe">
         </div>
@@ -292,6 +294,105 @@
 
         </div>
     </div>
+
+    <!-- Formulario de contato -->
+
+    <div class="contato" id="contato">
+        <h1>Entre em contato</h1>
+        <div class="formulario">
+            <div class="lado1">
+                <div class="mapa">
+                    <h2>Localização</h2>
+                    <p>Rua - Fulana de tal, 9999 <br>
+                        CEP 99999-999 <br>
+                        Pindorama/SP</p>
+                    <img id="mapa" src="imgs/formulario/mapa.jpg" alt="Mapa">
+                </div>
+                <div class="whatsapp">
+                    <img src="imgs/formulario/icon-whatsapp.png" alt="whats">
+                    <p>(99)-99999999</p>
+                </div>
+                <div class="instagram">
+                    <img id="elipse1" src="imgs/formulario/Ellipse2.png" alt="elipse">
+                    <img id="insta" src="imgs/formulario/Instagram.png" alt="Instagram">
+                    <p>@PindoramaClinica</p>
+                </div>
+                <div class="facebook">
+                    <img id="elipse2" src="imgs/formulario/Ellipse2.png" alt="elipse">
+                    <img id="face" src="imgs/formulario/Facebook.png" alt="face">
+                    <p>PindoramaClinica</p>
+                </div>
+            </div>
+            <div class="lado2">
+
+                <form action="/enviar" method="post">
+                    <div class="dados">
+                        <div class="text-box">
+                            <label for="nome">Nome</label>
+                            <input id="text-nome" type="text" name="nome" id="nome" required>
+                        </div>
+
+                        <div class="text-box">
+                            <label for="sobrenome"> Sobrenome</label>
+                            <input type="text" name="sobrenome" id="sobrenome" required>
+                        </div>
+
+                        <div class="text-box">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+
+                        <div class="text-box">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem"></textarea>
+                        </div>
+
+                        <button type="submit">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- RODAPÉ -->
+
+    <footer>
+        <div class="rodape">
+            <div class="logo-rodape">
+                <img src="imgs/logo/logo-rodape.png" alt="Logo do rodapé">
+                <img src="imgs/logo/logo-nome-rodape.png" alt="Nome rodapé">
+            </div>
+            <div class="nosso-servicos">
+                <h2>NOSSOS SERVIÇOS</h2>
+                <p>SOBRE NÓS</p>
+                <p>CONSULTA VETERINÁRIA</p>
+                <p>NOSSOS SERVIÇOS</p>
+            </div>
+            <div class="instituto">
+                <h2>INSTITUCIONAL</h2>
+                <p>PROGRAMA DE ADOÇÃO</p>
+                <p>TERMOS DE COMPROMISSO</p>
+                <p>UNECT JR</p>
+            </div>
+            <div class="redes">
+                <h2>NOSSOS CONTATOS</h2>
+                <div class="whats">
+                    <img src="imgs/formulario/icon-whatsapp.png" alt="Whatsapp Ícone">
+                </div>
+                <div class="insta">
+                    <img id="elipse" src="imgs/formulario/Ellipse2.png" alt="Elipse-Rodapé">
+                    <img id="insta" src="imgs/formulario/Instagram.png" alt="Intagram-Rodapé">
+                </div>
+                <div class="face">
+                    <img id="elipse" src="imgs/formulario/Ellipse2.png" alt="Elipse-Rodapé">
+                    <img id="face" src="imgs/formulario/Facebook.png" alt="Facebook-Rodapé">
+                </div>
+            </div>
+        </div>
+        <div class="direitos">
+            <h2>UNECT JR - TODOS OS DIREITOS RESERVADOS</h2>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

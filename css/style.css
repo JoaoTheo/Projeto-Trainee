@@ -18,9 +18,9 @@ a {
   display: flex;
 
   padding: 35px 170px 35.176px 190px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 400px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: #f8f8ff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
