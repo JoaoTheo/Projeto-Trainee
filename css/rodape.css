@@ -1,0 +1,125 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.direitos {
+  display: flex;
+  max-width: 100%;
+  padding: 11px 0px;
+  justify-content: center;
+  align-items: center;
+  background: #063643;
+}
+
+footer .direitos h2 {
+  color: #e2f5fa;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.rodape {
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 100px;
+  display: flex;
+  width: 1920px;
+  height: 272px;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+
+  border-top: 1px solid #c7ebfb;
+  border-bottom: 1px solid #c7ebfb;
+  background: #f8f8ff;
+}
+
+.rodape h2 {
+  color: #063643;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.rodape p {
+  color: #063643;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.rodape .logo-rodape {
+  display: flex;
+  flex-direction: column;
+  margin-left: 240px;
+  gap: 10px;
+}
+
+.rodape .nosso-servicos h2 {
+  margin-bottom: 12px;
+}
+
+.rodape .nosso-servicos p {
+  margin-bottom: 8px;
+}
+
+.rodape .instituto h2 {
+  margin-bottom: 12px;
+}
+
+.rodape .instituto p {
+  margin-bottom: 8px;
+}
+
+.rodape .redes {
+  display: flex;
+  position: absolute;
+}
+
+.rodape .redes h2 {
+  position: absolute;
+  left: 1050px;
+  bottom: 59px;
+  white-space: nowrap;
+}
+
+.rodape .redes .whats {
+  position: absolute;
+  left: 1055px;
+  bottom: 5px;
+}
+
+.rodape .redes .insta #elipse {
+  position: absolute;
+  left: 1110px;
+  bottom: 9px;
+}
+
+.insta #insta {
+  position: absolute;
+  left: 1116px;
+  bottom: 14px;
+}
+
+.rodape .redes .face #elipse {
+  position: absolute;
+  left: 1165px;
+  bottom: 9px;
+}
+
+.face #face {
+  position: absolute;
+  left: 1170px;
+  bottom: 15px;
+}
