@@ -64,6 +64,21 @@ footer .direitos h2 {
   flex-direction: column;
   margin-left: 240px;
   gap: 10px;
+  margin-bottom: 90px;
+}
+
+.logo-rodape #nome-rodape {
+  position: absolute;
+  left: 220px;
+}
+
+.rodape .nosso-servicos {
+  margin-left: 40px;
+}
+
+.rodape .nosso-servicos,
+.rodape .instituto {
+  margin-bottom: 30px;
 }
 
 .rodape .nosso-servicos h2 {
