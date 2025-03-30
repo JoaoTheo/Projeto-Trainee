@@ -1,0 +1,235 @@
+.contato {
+  width: 1020px;
+  height: 745px;
+  margin: 37px auto 0px auto;
+
+  display: flex;
+  position: relative;
+  flex-direction: column;
+
+  white-space: nowrap;
+  justify-content: center;
+  align-items: start;
+}
+
+.contato h1 {
+  color: #063643;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.formulario {
+  width: 1020px;
+  height: 692px;
+  margin-top: 3%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+
+  background: white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.contato .formulario h2 {
+  color: #063643;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contato .formulario p {
+  color: #063643;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.formulario .lado1 {
+  margin-left: 0px;
+  width: 420px;
+  height: 692px;
+
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid rgba(6, 54, 67, 0.4);
+  background: #f8f8ff;
+
+  position: absolute;
+  left: 0px;
+}
+
+.lado1 .mapa h2 {
+  position: absolute;
+  padding: 51px 282px 617px 21px;
+}
+
+.lado1 .mapa p {
+  position: absolute;
+  padding: 115px 120px 499px 20px;
+}
+
+.lado1 .mapa img {
+  position: absolute;
+  padding: 263px 35px 184.84px 35px;
+}
+
+.lado1 .whatsapp p,
+.lado1 .instagram p,
+.lado1 .facebook p {
+  color: #063643;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lado1 .whatsapp img,
+.lado1 .instagram img,
+.lado1 .facebook img {
+  position: absolute;
+  left: 0px;
+}
+
+.lado1 .whatsapp p,
+.lado1 .instagram p,
+.lado1 .facebook p {
+  position: absolute;
+  left: 0px;
+}
+
+.lado1 .whatsapp img {
+  padding: 554px 364px 102px 20px;
+}
+
+.lado1 .whatsapp p {
+  left: 70px;
+  bottom: 112px;
+}
+
+.lado1 .instagram #elipse1 {
+  padding: 598px 364px 58px 20px;
+}
+
+.lado1 .instagram #insta {
+  padding: 604px 370px 64px 26px;
+}
+
+.lado1 .instagram p {
+  padding: 604px 188px 63px 68px;
+}
+
+.lado1 .facebook #elipse2 {
+  padding: 642px 364px 14px 20px;
+}
+
+.lado1 .facebook #face {
+  padding: 649px 371px 21px 27px;
+}
+
+.lado1 .facebook p {
+  padding: 647px 205px 20px 68px;
+}
+
+/* Segunda parte do formulário */
+
+.formulario .lado2 {
+  width: 600px;
+  height: 692px;
+  right: 0px;
+
+  position: absolute;
+
+  border-radius: 0px 8px 8px 0px;
+  border-top: 1px solid rgba(6, 54, 67, 0.4);
+  border-right: 1px solid rgba(6, 54, 67, 0.4);
+  border-bottom: 1px solid rgba(6, 54, 67, 0.4);
+  background: #fafdff;
+}
+
+.formulario .lado2 .dados {
+  display: flex;
+  padding: 51px 40px 46px 40px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.lado2 .dados label {
+  color: #063643;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.lado2 .dados input {
+  width: 520px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.lado2 .dados input:hover {
+  border: 2px solid #063643;
+  box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
+}
+
+.lado2 .dados textarea {
+  width: 520px;
+  height: 120px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+  resize: none;
+}
+
+.lado2 .dados .text-box textarea:hover {
+  border: 2px solid #063643;
+  box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
+}
+
+.lado2 .dados button {
+  display: flex;
+  width: 144px;
+  height: 55px;
+  padding: 8px 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #0f637a;
+  cursor: pointer;
+
+  color: #f8f8ff;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.lado2 .dados button:hover {
+  background: rgba(6, 54, 67, 1);
+}
+
+.lado2 .dados .text-box {
+  display: flex;
+  flex-direction: column;
+}
+
+#text-nome {
+  margin-bottom: 0px;
+}
