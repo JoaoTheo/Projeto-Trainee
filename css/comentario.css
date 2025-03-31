@@ -4,7 +4,7 @@
   margin: 48px auto 37px auto;
   display: flex;
 
-  overflow: hidden;
+  /* overflow: hidden; */
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -23,11 +23,10 @@
   display: flex;
   position: relative;
   white-space: nowrap;
+  bottom: 600px;
 }
 
 .aba1 {
-  width: 1180px;
-  height: 626px;
   position: absolute;
   left: 590px;
   bottom: -300px;
@@ -196,7 +195,7 @@
 
   position: absolute;
   left: -5px;
-  bottom: -680px;
+  bottom: -710px;
 }
 
 .joao,
@@ -327,8 +326,8 @@
 /* ABA 3 DOS COMENTARIOS */
 
 .aba3 {
-  width: 1180px;
-  height: 626px;
+  /*  width: 1180px;
+  height: 626px; */
 
   position: absolute;
   left: -5px;
