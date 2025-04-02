@@ -36,13 +36,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const btnVoltarComent = document.getElementById("voltar_coment");
   const btnAvancarComent = document.getElementById("avancar_coment");
-  const abasComentarios = document.querySelectorAll(".abas > div");
+  const abasComentarios = document.querySelectorAll(".abas > .aba");
+  const pageNumber = document.getElementById('pageNumber');
   let currentComentario = 0;
 
   function showComentario(index) {
     abasComentarios.forEach((aba, i) => {
       aba.style.display = i === index ? "block" : "none";
     });
+    pageNumber.textContent = index + 1;
+    btnVoltarComent.style.display = index === 0 ? 'none' : 'inline-flex';
+    btnAvancarComent.style.display = index === 2 ? 'none' : 'inline-flex';
   }
 
   btnAvancarComent?.addEventListener("click", () => {
@@ -56,7 +60,32 @@ document.addEventListener("DOMContentLoaded", function () {
     showComentario(currentComentario);
   });
 
-  showComentario(0);
+  showComentario(currentComentario);
+
+  /*
+  const btnVoltarComent = document.getElementById("voltar_coment");
+  const btnAvancarComent = document.getElementById("avancar_coment");
+  const abasComentarios = document.querySelectorAll(".abas > div");
+  let currentComentario = 0;
+  
+  function showComentario(index) {
+    abasComentarios.forEach((aba, i) => {
+      aba.style.display = i === index ? "block" : "none";
+    });
+  }
+  
+  btnAvancarComent?.addEventListener("click", () => {
+    currentComentario = (currentComentario + 1) % abasComentarios.length;
+    showComentario(currentComentario);
+  });
+  
+  btnVoltarComent?.addEventListener("click", () => {
+    currentComentario =
+      (currentComentario - 1 + abasComentarios.length) % abasComentarios.length;
+    showComentario(currentComentario);
+  });
+  
+  showComentario(0);*/
 
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
