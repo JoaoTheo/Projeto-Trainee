@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+#gato-pata {
+  display: none;
+}
+
 .quem_somos1 p,
 .servicos1 p,
 .servicos2 p {
@@ -128,4 +132,22 @@
 .servicos2 img {
   position: absolute;
   right: 450px;
+}
+
+/* Informativo e Serviços Mobile */
+
+@media (max-width: 400px) {
+  .informativo {
+    margin-top: -38%;
+  }
+
+  .quem_somos1 {
+    width: 100%;
+  }
+
+  .servicos1 #gato-pata {
+    display: block;
+    position: absolute;
+    left: 700px;
+  }
 }
