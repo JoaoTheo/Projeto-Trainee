@@ -17,7 +17,7 @@ a {
 /* Cabeçalho */
 .cabecalho {
   display: flex;
-  white-space: nowrap;
+
   padding: 35px 170px 35.176px 190px;
   justify-content: center;
   align-items: center;
@@ -27,6 +27,11 @@ a {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   overflow: hidden;
+}
+
+.cabecalho .menu,
+.cabecalho .logo-mobile {
+  display: none;
 }
 
 #logo_cabecalho {
@@ -51,6 +56,7 @@ a {
   font-weight: 400;
   line-height: normal;
   padding: 0px 4px;
+  white-space: nowrap;
 }
 
 #navegar a:hover {
@@ -77,6 +83,11 @@ a {
   border: 1px solid rgba(0, 0, 0, 0.15);
   background: #f8f8ff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.banner1 .conteudo #texto-mobile-banner1,
+.banner1 .figura .fundo-mobile {
+  display: none;
 }
 
 .conteudo {
@@ -304,7 +315,6 @@ a {
 .parte_2 {
   width: 1094.182px;
   height: 300px;
-
   border-radius: 8px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #063643;
@@ -487,4 +497,126 @@ a {
 
 #radio3:checked ~ .parte_1 {
   margin-top: -60.2%;
+}
+
+/* ESTILIZAÇÃO PARA MOBILE */
+
+@media (max-width: 400px) {
+  .cabecalho {
+    width: 400px;
+    height: 80px;
+    display: inline-flex;
+    padding: 18px 143px 18px 17px;
+    align-items: center;
+    gap: 93px;
+    margin-top: 33px;
+    position: relative;
+  }
+
+  .cabecalho a {
+    display: none;
+  }
+
+  .cabecalho .menu,
+  .cabecalho .logo-mobile {
+    display: block;
+  }
+
+  .cabecalho .logo-mobile {
+    position: absolute;
+    left: 150px;
+    top: 18px;
+  }
+
+  .cabecalho .menu {
+    position: absolute;
+    top: 18px;
+  }
+
+  /* Primeiro banner no Mobile */
+
+  .banner1 {
+    width: 205.976px;
+    height: 373.878px;
+    position: relative;
+    left: -50px;
+
+    background-color: transparent;
+
+    border: none;
+    box-shadow: none;
+  }
+
+  .banner1 .conteudo #texto-desk-banner1,
+  .banner1 .figura #onda {
+    display: none;
+  }
+
+  .banner1 .figura .fundo-mobile {
+    display: flex;
+    width: 205.976px;
+    height: 373.878px;
+    transform: rotate(60deg);
+    position: absolute;
+    left: 400px;
+    top: -235px;
+    z-index: -1;
+  }
+
+  .banner1 .conteudo #texto-mobile-banner1 {
+    display: flex;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    color: #063643;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .banner1 .banner1_imagem #animais {
+    width: 92.308px;
+    height: 73.846px;
+    left: -205px;
+    bottom: 200px;
+  }
+
+  .banner1 .banner1_imagem #grupo_animais {
+    width: 184.615px;
+    height: 117.943px;
+    left: -123px;
+    bottom: 200px;
+  }
+
+  .banner1 .banner1_imagem #gato {
+    width: 101.538px;
+    height: 79.335px;
+    left: 30px;
+    bottom: 200px;
+  }
+
+  .banner1 .entre_contato a {
+    width: 169px;
+    height: 40px;
+    font-size: 15.556px;
+    gap: 5.556px;
+    padding: 5.556px 2.778px;
+    position: absolute;
+
+    top: 185px;
+    left: 70px;
+  }
+
+  .banner1 .entre_contato a:hover,
+  .banner1 .entre_contato a:active {
+    background-color: #7ccbe0;
+    color: #0f637a;
+    transition: 0.1s;
+  }
+
+  .carrossel_1 {
+    display: none;
+  }
 }
