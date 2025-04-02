@@ -1,15 +1,34 @@
 .comentario {
-  width: 1180px;
-  height: 626px;
-  margin: 48px auto 37px auto;
+  width: 100%;
   display: flex;
-
-  /* overflow: hidden; */
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
+.comentario-container {
+  width: 1180px;
+  height: 626px;
+  /*APAGAR
+  margin: 48px auto 37px auto;*/
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  padding: 46px 215px 28px 65px;
+}
+
+.comentario-card {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.comentario-card .info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* APAGAR
 .aba1,
 .aba2,
 .aba3 {
@@ -30,10 +49,10 @@
   position: absolute;
   left: 590px;
   bottom: -300px;
-}
+}*/
 
-.aba1 span {
-  position: relative;
+.abas span {
+  /*Troquei "aba1" por "abas"*/
   color: #063643;
   font-family: "Poppins";
   font-size: 18px;
@@ -41,12 +60,19 @@
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.18px;
+  /*APAGAR
+  position: relative;
   white-space: nowrap;
   bottom: -245px;
-  right: -470px;
+  right: -470px;*/
 }
 
-.aba1 button {
+.abas .button-invible {
+  width: 42px;
+}
+
+.abas button {
+  /*Troquei "aba1" por "abas"*/
   padding: 5px 10px;
   align-items: center;
   gap: 10px;
@@ -56,9 +82,10 @@
   border: 1px solid #063643;
 
   display: inline-flex;
+  /* APAGAR
   position: relative;
   bottom: -250px;
-  right: -485px;
+  right: -485px;*/
   cursor: pointer;
 }
 
@@ -74,8 +101,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  /*APAGAR
   position: absolute;
-  padding: 46px 915px 551px 80px;
+  padding: 46px 915px 551px 80px;*/
+  padding-left: 15px;
 }
 
 .comentario h3 {
@@ -94,8 +123,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  height: 50px;
 }
 
+.comentario .buttons {
+  display: flex;
+  gap: 14px;
+  justify-self: end;
+}
+
+/*APAGAR
 .carlos_alberto h3,
 .neymar h3,
 .josseana h3 {
@@ -169,30 +206,33 @@
   position: absolute;
   top: 110px;
   left: -510px;
-}
+}*/
 
 .barra {
-  position: absolute;
   width: 900px;
   height: 2px;
   background: rgba(0, 0, 0, 0.1);
-  left: -520px;
+  /*APAGAR
+  position: absolute;
+  left: -520px;*/
+  margin: 5px 0 12px 0;
 }
 
+/*APAGAR
 #barra1 {
   top: -70px;
 }
 
 #barra2 {
   top: 70px;
-}
+}*/
 
 /* PARTE DOIS DO SEGUNDO CARROSSEL */
 
+/*APAGAR
 .aba2 {
   width: 1180px;
   height: 626px;
-
   position: absolute;
   left: -5px;
   bottom: -710px;
@@ -321,13 +361,14 @@
 
 .aba2 #voltar_coment {
   margin-right: 20px;
-}
+}*/
 
 /* ABA 3 DOS COMENTARIOS */
 
+/* APAGAR
 .aba3 {
-  /*  width: 1180px;
-  height: 626px; */
+  width: 1180px;
+  height: 626px;
 
   position: absolute;
   left: -5px;
@@ -454,4 +495,4 @@
   bottom: -430px;
   right: -1010px;
   cursor: pointer;
-}
+}*/
