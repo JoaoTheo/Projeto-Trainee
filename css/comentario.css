@@ -7,8 +7,6 @@
 .comentario-container {
   width: 1180px;
   height: 626px;
-  /*APAGAR
-  margin: 48px auto 37px auto;*/
   display: flex;
   flex-direction: column;
   gap: 52px;
@@ -28,31 +26,7 @@
   gap: 5px;
 }
 
-/* APAGAR
-.aba1,
-.aba2,
-.aba3 {
-  width: 33.3%;
-  position: relative;
-}
-
-.abas {
-  width: 1180px;
-  height: 626px;
-  display: flex;
-  position: relative;
-  white-space: nowrap;
-  bottom: 600px;
-}
-
-.aba1 {
-  position: absolute;
-  left: 590px;
-  bottom: -300px;
-}*/
-
 .abas span {
-  /*Troquei "aba1" por "abas"*/
   color: #063643;
   font-family: "Poppins";
   font-size: 18px;
@@ -60,11 +34,6 @@
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.18px;
-  /*APAGAR
-  position: relative;
-  white-space: nowrap;
-  bottom: -245px;
-  right: -470px;*/
 }
 
 .abas .button-invible {
@@ -72,7 +41,6 @@
 }
 
 .abas button {
-  /*Troquei "aba1" por "abas"*/
   padding: 5px 10px;
   align-items: center;
   gap: 10px;
@@ -82,10 +50,6 @@
   border: 1px solid #063643;
 
   display: inline-flex;
-  /* APAGAR
-  position: relative;
-  bottom: -250px;
-  right: -485px;*/
   cursor: pointer;
 }
 
@@ -101,9 +65,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  /*APAGAR
-  position: absolute;
-  padding: 46px 915px 551px 80px;*/
   padding-left: 15px;
 }
 
@@ -132,367 +93,10 @@
   justify-self: end;
 }
 
-/*APAGAR
-.carlos_alberto h3,
-.neymar h3,
-.josseana h3 {
-  position: absolute;
-  left: -400px;
-}
-
-.carlos_alberto h3 {
-  top: -165px;
-}
-
-.neymar h3 {
-  top: -25px;
-}
-
-.josseana h3 {
-  top: 120px;
-}
-
-.carlos_alberto p,
-.neymar p,
-.josseana p {
-  position: absolute;
-  left: -400px;
-}
-
-.carlos_alberto p {
-  top: -130px;
-}
-
-.neymar p {
-  top: 10px;
-}
-
-.josseana p {
-  top: 160px;
-}
-
-.carlos_alberto #estrela,
-.neymar #estrela,
-.josseana #estrela {
-  position: absolute;
-  left: -400px;
-}
-
-.carlos_alberto #estrela {
-  top: -190px;
-}
-
-.neymar #estrela {
-  top: -50px;
-}
-
-.josseana #estrela {
-  top: 95px;
-}
-
-#coment1 {
-  position: absolute;
-  top: -180px;
-  left: -510px;
-}
-
-#coment2 {
-  position: absolute;
-  top: -40px;
-  left: -510px;
-}
-
-#coment3 {
-  position: absolute;
-  top: 110px;
-  left: -510px;
-}*/
-
 .barra {
   width: 900px;
   height: 2px;
   background: rgba(0, 0, 0, 0.1);
-  /*APAGAR
-  position: absolute;
-  left: -520px;*/
+
   margin: 5px 0 12px 0;
 }
-
-/*APAGAR
-#barra1 {
-  top: -70px;
-}
-
-#barra2 {
-  top: 70px;
-}*/
-
-/* PARTE DOIS DO SEGUNDO CARROSSEL */
-
-/*APAGAR
-.aba2 {
-  width: 1180px;
-  height: 626px;
-  position: absolute;
-  left: -5px;
-  bottom: -710px;
-}
-
-.joao,
-.adamilton,
-.luciana {
-  position: absolute;
-  left: 90px;
-}
-
-.joao h3,
-.adamilton h3,
-.luciana h3 {
-  position: absolute;
-  left: 105px;
-}
-
-.joao h3 {
-  top: 10px;
-}
-
-.adamilton h3 {
-  top: 150px;
-}
-
-.luciana h3 {
-  top: 300px;
-}
-
-.joao p,
-.adamilton p,
-.luciana p {
-  position: absolute;
-  left: 105px;
-}
-
-.joao p {
-  bottom: -100px;
-}
-
-.adamilton p {
-  bottom: -235px;
-}
-
-.luciana p {
-  bottom: -385px;
-}
-
-.joao #estrela,
-.adamilton #estrela,
-.luciana #estrela {
-  position: absolute;
-  left: 105px;
-}
-
-.joao #estrela {
-  top: -15px;
-}
-
-.adamilton #estrela {
-  top: 125px;
-}
-
-.luciana #estrela {
-  top: 275px;
-}
-
-.joao #coment4,
-.adamilton #coment5,
-.luciana #coment6 {
-  position: absolute;
-}
-
-.adamilton #coment5 {
-  bottom: -220px;
-}
-
-.luciana #coment6 {
-  bottom: -370px;
-}
-
-#barra3,
-#barra4 {
-  left: -10px;
-}
-
-#barra3 {
-  top: 110px;
-}
-
-#barra4 {
-  top: 245px;
-}
-
-.aba2 span {
-  position: relative;
-  color: #063643;
-  font-family: "Poppins";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.18px;
-  white-space: nowrap;
-  bottom: -425px;
-  right: -1000px;
-}
-
-.aba2 button {
-  padding: 5px 10px;
-  align-items: center;
-  gap: 10px;
-  border-radius: 8px;
-
-  background: transparent;
-  border: 1px solid #063643;
-
-  display: inline-flex;
-  position: relative;
-  bottom: -430px;
-  right: -1010px;
-  cursor: pointer;
-}
-
-.aba2 #voltar_coment {
-  margin-right: 20px;
-}*/
-
-/* ABA 3 DOS COMENTARIOS */
-
-/* APAGAR
-.aba3 {
-  width: 1180px;
-  height: 626px;
-
-  position: absolute;
-  left: -5px;
-  bottom: -1350px;
-}
-
-.matheus,
-.luiz,
-.clariane {
-  position: absolute;
-}
-
-.matheus h3,
-.luiz h3,
-.clariane h3 {
-  position: absolute;
-  left: 195px;
-}
-
-.matheus h3 {
-  bottom: -40px;
-}
-
-.luiz h3 {
-  bottom: -180px;
-}
-
-.clariane h3 {
-  bottom: -330px;
-}
-
-.matheus p,
-.luiz p,
-.clariane p {
-  position: absolute;
-  left: 195px;
-}
-
-.matheus p {
-  bottom: -100px;
-}
-
-.luiz p {
-  bottom: -235px;
-}
-
-.clariane p {
-  bottom: -385px;
-}
-
-.matheus #estrela,
-.luiz #estrela,
-.clariane #estrela {
-  position: absolute;
-  left: 195px;
-}
-
-.matheus #estrela {
-  bottom: -10px;
-}
-
-.luiz #estrela {
-  bottom: -150px;
-}
-
-.clariane #estrela {
-  bottom: -300px;
-}
-
-.matheus #coment7,
-.luiz #coment8,
-.clariane #coment9 {
-  position: absolute;
-  left: 90px;
-}
-
-.luiz #coment8 {
-  bottom: -220px;
-}
-
-.clariane #coment9 {
-  bottom: -370px;
-}
-
-#barra5,
-#barra6 {
-  position: absolute;
-  left: 75px;
-}
-
-#barra5 {
-  bottom: -115px;
-}
-
-#barra6 {
-  bottom: -245px;
-}
-
-.aba3 span {
-  position: relative;
-  color: #063643;
-  font-family: "Poppins";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.18px;
-  white-space: nowrap;
-  bottom: -425px;
-  right: -1020px;
-}
-
-.aba3 button {
-  padding: 5px 10px;
-  align-items: center;
-  gap: 10px;
-  border-radius: 8px;
-
-  background: transparent;
-  border: 1px solid #063643;
-
-  display: inline-flex;
-  position: relative;
-  bottom: -430px;
-  right: -1010px;
-  cursor: pointer;
-}*/

@@ -10,11 +10,8 @@
     <link rel="stylesheet" href="css/rodape.css">
     <!-- Fontes -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
     <title>Pindorama Pets</title>
@@ -24,8 +21,10 @@
     <div class="cabecalho" id="cabecalho">
         <div id="logo_cabecalho">
             <a href="#cabecalho"><img src="imgs/logo/Logo-horizontal.png" alt=""></a>
-            <img class="menu" src="imgs/mobile/Menu.png" alt="menu-mobile">
-            <img class="logo-mobile" src="imgs/mobile/logo_cima.png" alt="logo-mobile">
+            <div id="conteudo-mobile">
+                <img class="menu" src="imgs/mobile/Menu.png" alt="menu-mobile">
+                <img class="logo-mobile" src="imgs/mobile/logo_cima.png" alt="logo-mobile">
+            </div>
         </div>
         <div id="navegar">
             <a href="#cabecalho">Início</a>
@@ -123,10 +122,12 @@
     <div class="informativo">
         <div class="quem_somos1" id="quem_somos">
             <h2>Quem somos?</h2>
-            <p>Nossa clínica veterinária é comprometida com o cuidado e bem-estar <br> de cada pet, com uma equipe
+            <p id="texto-desk-quem-somos">Nossa clínica veterinária é comprometida com o cuidado e bem-estar <br> de cada pet, com uma equipe
                 dedicada e instalações modernas, <br> buscamos garantir saúde e conforto em cada atendimento. Cuidamos
                 <br> do seu animalzinho como se fosse nosso!
             </p>
+            <p id="texto-mobile-quem-somos">Nossa clínica veterinária é comprometida com o <br> cuidado e bem-estar de cada pet, com uma equipe <br> dedicada e instalações modernas, buscamos <br> garantir saúde e conforto em cada atendimento.</p>
+            <h3 id="destaque-mobile-quem-somos">Cuidamos do seu animalzinho com amor!</h3>
             <div class="quem_somos_imagens">
                 <img id="icon" src="imgs/banner_descricao/logo-icon.png" alt="Ícone">
                 <img id="nome" src="imgs/banner_descricao/Logo-name.png" alt="Nome">
@@ -138,6 +139,7 @@
             <p>Na nossa clínica veterinária, cada consulta é realizada com <br> dedicação e atenção aos detalhes,
                 garantindo o melhor cuidado <br> para o seu pet. Contamos com uma equipe experiente e <br> atualizada
                 para oferecer diagnósticos precisos e tratamentos <br> eficazes. </p>
+
             <img id="doutora_gato" src="imgs/banner_descricao/doutora_gato.png" alt="Examinando gato">
             <img id="gato-pata" src="imgs/carrossel/gato.png" alt="Gato Pata Levantada">
         </div>
@@ -348,11 +350,9 @@
 
                 <!-- NOVO - Novo espaço onde fica os botões e indice-->
                 <div class="buttons">
-                    <div class="button-invible"><button id="voltar_coment"><img src="imgs/comentario/flecha_back.png"
-                                alt="voltar"></button></div>
+                    <div class="button-invible"><button id="voltar_coment"><img src="imgs/comentario/flecha_back.png" alt="voltar"></button></div>
                     <span class="page-number" id="pageNumber">1</span>
-                    <div class="button-invible"><button id="avancar_coment"><img src="imgs/comentario/flecha_next.png"
-                                alt="avancar"></button></div>
+                    <div class="button-invible"><button id="avancar_coment"><img src="imgs/comentario/flecha_next.png" alt="avancar"></button></div>
                 </div>
             </div>
         </div>
