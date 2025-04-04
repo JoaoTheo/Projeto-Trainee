@@ -9,7 +9,8 @@
 }
 
 #texto-mobile-quem-somos,
-#destaque-mobile-quem-somos {
+#destaque-mobile-quem-somos,
+#icon-mobile {
   display: none;
 }
 
@@ -101,17 +102,23 @@
   background-color: rgba(81, 162, 184, 1);
 }
 
-.servicos1 h2 {
+#titulo-servicos-mobile,
+#texto-servicos-mobile,
+.servicos1 a {
+  display: none;
+}
+
+.servicos1 #titulo-servicos-desk {
   position: absolute;
   padding: 52px 1271px 350px 450px;
 }
 
-.servicos1 p {
+.servicos1 #texto-servicos-desk {
   position: absolute;
   padding: 160px 438px 113px 862px;
 }
 
-.servicos1 img {
+.servicos1 #doutora_gato {
   position: absolute;
   top: 120px;
   left: 450px;
@@ -151,7 +158,10 @@
 
   .quem_somos1 {
     width: 100%;
+    height: auto;
     white-space: nowrap;
+    justify-content: center;
+    padding-bottom: 10%;
   }
 
   .quem_somos1 h2 {
@@ -162,15 +172,19 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding: 10% 0% 80% 0%;
   }
 
-  .quem_somos1 #texto-desk-quem-somos {
+  .quem_somos1 #texto-desk-quem-somos,
+  .quem_somos_imagens #icon,
+  .quem_somos_imagens #nome {
     display: none;
   }
 
   #texto-mobile-quem-somos,
   #destaque-mobile-quem-somos {
     display: flex;
+    padding: 40% 0% 0% 0%;
   }
 
   #texto-mobile-quem-somos {
@@ -193,12 +207,90 @@
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0.32px;
+
+    padding-top: 80%;
   }
 
-  .servicos1 #gato-pata {
-    display: block;
+  .quem_somos1 #icon-mobile {
+    display: flex;
     position: absolute;
-    left: 700px;
+    left: 28%;
+    top: 15%;
+  }
+
+  /* Segunda parte dos informes */
+
+  #titulo-servicos-desk,
+  #texto-servicos-desk,
+  #doutora_gato {
+    display: none;
+  }
+
+  .servicos1 {
+    width: 100%;
+    height: 320px;
+    white-space: nowrap;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35%;
+  }
+
+  #titulo-servicos-mobile,
+  #texto-servicos-mobile,
+  .servicos1 a {
+    display: flex;
+    text-align: center;
+  }
+
+  #titulo-servicos-mobile {
+    color: #063643;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #texto-servicos-mobile {
+    color: #063643;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.857%;
+    letter-spacing: 0.28px;
+
+    padding-top: 10%;
+    padding-bottom: 8%;
+  }
+
+  .servicos1 a {
+    color: #063643;
+    font-family: "Poppins";
+    font-size: 15.337px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    border-radius: 2.191px;
+    background: #f8f8ff;
+    width: 52%;
+    height: 0%;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  #gato-pata {
+    display: flex;
+    padding-left: 40%;
+    padding-top: 2%;
   }
 
   .servicos2 {

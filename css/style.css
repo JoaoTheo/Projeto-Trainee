@@ -532,6 +532,7 @@ a {
     box-shadow: none;
     justify-content: center;
     align-items: center;
+    padding-left: 5%;
   }
 
   .banner1 .conteudo #texto-desk-banner1,
@@ -569,7 +570,7 @@ a {
   .banner1 .banner1_imagem {
     display: flex;
     top: 20%;
-    left: 35%;
+    left: 40%;
   }
 
   .banner1 .banner1_imagem #animais {
@@ -602,7 +603,7 @@ a {
 
     position: absolute;
     top: 68%;
-    left: 13%;
+    left: 10%;
   }
 
   .banner1 .entre_contato a:hover,

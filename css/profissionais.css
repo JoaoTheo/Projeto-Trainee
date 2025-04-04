@@ -60,3 +60,53 @@
 .doutor4 {
   margin-top: 75px;
 }
+
+@media (max-width: 400px) {
+  .profissionais {
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    border-radius: 0px;
+    box-shadow: none;
+    gap: 10px;
+    margin-top: 23%;
+  }
+
+  .profissionais h2 {
+    padding: 0% 0% 140% 0%;
+  }
+
+  .profissionais .doutor1,
+  .profissionais .doutor2,
+  .profissionais .doutor3,
+  .profissionais .doutor4 {
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 3%;
+  }
+
+  .profissionais h3 {
+    color: #063643;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 15.137px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .profissionais p {
+    color: #063643;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 10.812px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .profissionais img {
+    width: 166px;
+    height: 166px;
+  }
+}
