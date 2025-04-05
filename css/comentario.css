@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+#aval-mobile {
+  display: none;
+}
+
 .comentario-container {
   width: 1180px;
   height: 626px;
@@ -102,4 +106,60 @@
   background: rgba(0, 0, 0, 0.1);
 
   margin: 5px 0 12px 0;
+}
+
+@media (max-width: 400px) {
+  .comentario br {
+    display: none;
+  }
+
+  #aval-desk {
+    display: none;
+  }
+
+  .barra {
+    display: none;
+  }
+
+  .comentario-container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    word-wrap: break-word;
+    padding-top: 5%;
+  }
+
+  .comentario-container #aval-mobile {
+    display: flex;
+    font-family: "Poppins";
+    font-size: 1.25rem;
+    align-self: center;
+  }
+
+  .comentario-card img {
+    width: 3.33975rem;
+    height: 3.30994rem;
+  }
+
+  .info img {
+    width: 0.82231rem;
+    height: 0.8275rem;
+  }
+
+  .comentario-card h3 {
+    font-family: "Inter";
+    font-size: 0.8275rem;
+    letter-spacing: 0.00825rem;
+  }
+
+  .comentario-card p {
+    font-family: "Inter";
+    font-size: 0.74475rem;
+    letter-spacing: 0.00744rem;
+  }
+
+  .comentario .buttons {
+    justify-content: center;
+    padding-top: 5%;
+  }
 }
