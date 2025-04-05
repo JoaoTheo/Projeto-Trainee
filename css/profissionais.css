@@ -64,16 +64,19 @@
 @media (max-width: 400px) {
   .profissionais {
     width: 100%;
+    height: auto;
     flex-wrap: wrap;
     padding-top: 5%;
     border-radius: 0px;
     box-shadow: none;
-    gap: 10px;
-    margin-top: 23%;
+    gap: 0.8rem;
+    margin-top: -60%;
+    padding-bottom: 5%;
+    z-index: 2;
   }
 
   .profissionais h2 {
-    padding: 0% 0% 140% 0%;
+    padding: 0% 0% 142% 0%;
   }
 
   .profissionais .doutor1,
@@ -89,7 +92,7 @@
     color: #063643;
     text-align: center;
     font-family: "Inter";
-    font-size: 15.137px;
+    font-size: 0.94606rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -99,14 +102,14 @@
     color: #063643;
     text-align: center;
     font-family: "Inter";
-    font-size: 10.812px;
+    font-size: 0.67563rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
 
   .profissionais img {
-    width: 166px;
-    height: 166px;
+    width: 10.375rem;
+    height: 10.375rem;
   }
 }

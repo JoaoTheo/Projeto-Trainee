@@ -102,7 +102,7 @@ a {
   padding: 202px 817px 176px 80px;
 }
 
-.conteudo h2 {
+.conteudo #texto-desk-banner1 {
   width: 500px;
 
   color: #063643;
@@ -506,10 +506,8 @@ a {
 
     display: flex;
     padding: 5% 0% 0% 3%;
-    gap: 93px;
+    gap: 5.82rem;
     margin-top: 10%;
-    padding-left: 3%;
-    padding-top: 5%;
   }
 
   .cabecalho a {
@@ -518,21 +516,23 @@ a {
 
   .cabecalho #conteudo-mobile {
     display: flex;
-    gap: 93px;
+    gap: 5.8125rem;
   }
 
   /* Primeiro banner no Mobile */
 
   .banner1 {
-    display: flex;
+    display: inline-flex;
     width: 100%;
-    height: 230px;
+    height: auto;
+    margin: 0;
     background-color: transparent;
     border: none;
     box-shadow: none;
     justify-content: center;
     align-items: center;
-    padding-left: 5%;
+    overflow: hidden;
+    padding: 0;
   }
 
   .banner1 .conteudo #texto-desk-banner1,
@@ -542,8 +542,8 @@ a {
 
   .banner1 .conteudo {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    position: static;
+    padding: 5% 0% 0% 5%;
   }
 
   .banner1 .conteudo #texto-mobile-banner1 {
@@ -554,56 +554,71 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 25%;
-    padding-right: 123%;
-    white-space: nowrap;
   }
 
   .banner1 .figura .fundo-mobile {
-    display: flex;
     position: absolute;
-    left: 30%;
-    top: -50%;
+    left: 39%;
+    bottom: -20%;
     z-index: -1;
+    width: 12.8735rem;
+    height: 23.36738rem;
+    transform: rotate(-115.496deg);
+    display: flex;
   }
 
   .banner1 .banner1_imagem {
     display: flex;
-    top: 20%;
-    left: 40%;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    padding: 0% 0% 3% 10%;
   }
 
   .banner1 .banner1_imagem #animais {
-    width: 92.308px;
-    height: 73.846px;
+    width: 5.76925rem;
+    height: 4.61538rem;
+    position: static;
+    margin-right: -2%;
   }
 
   .banner1 .banner1_imagem #grupo_animais {
-    width: 184.615px;
-    height: 117.943px;
-    right: 40px;
+    width: 11.53844rem;
+    height: 7.37144rem;
+    position: static;
+    margin-top: -12%;
   }
 
   .banner1 .banner1_imagem #gato {
-    width: 101.538px;
-    height: 79.335px;
-    right: -25px;
+    width: 6.34613rem;
+    height: 4.95844rem;
+    position: static;
+
+    margin-left: -10%;
+  }
+
+  .banner1 .entre_contato {
+    position: static;
+    padding: 0%;
+    align-self: center;
+    padding: 0% 0% 10% 0%;
   }
 
   .banner1 .entre_contato a {
     display: flex;
-    width: 169px;
-    height: 40px;
-    font-size: 15.556px;
-    padding: 5.556px 2.778px;
+    width: 10.5625rem;
+    height: 2.5rem;
+    padding: 0.34725rem 0.17363rem;
     justify-content: center;
     align-items: center;
-    gap: 5.5px;
+    gap: 0.34725rem;
     flex-shrink: 0;
-
-    position: absolute;
-    top: 68%;
-    left: 10%;
+    color: #f8f8ff;
+    font-family: "Poppins";
+    font-size: 0.97225rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
   }
 
   .banner1 .entre_contato a:hover,
