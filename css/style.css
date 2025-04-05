@@ -501,6 +501,11 @@ a {
 /* ESTILIZAÇÃO PARA MOBILE */
 
 @media (max-width: 400px) {
+  html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   .cabecalho {
     width: 100%;
 

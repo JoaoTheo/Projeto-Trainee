@@ -141,6 +141,10 @@
 
 /* Segunda parte do formulário */
 
+#titulo-contato-mobile {
+  display: none;
+}
+
 .formulario .lado2 {
   width: 600px;
   height: 692px;
@@ -232,4 +236,86 @@
 
 #text-nome {
   margin-bottom: 0px;
+}
+
+#rede-mobile {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .lado1,
+  #titulo-contato-desk {
+    display: none;
+  }
+  .contato {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin: 0;
+    margin-top: 10%;
+  }
+
+  .formulario {
+    width: 100%;
+    height: auto;
+    position: static;
+    flex-direction: column;
+    border-radius: 0%;
+    padding: 5% 0%;
+  }
+
+  .formulario .lado2 {
+    width: 100%;
+    height: auto;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+
+    background: white;
+    border-radius: 0;
+    border: 0;
+  }
+
+  #titulo-contato-mobile {
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    font-size: 1.5rem;
+  }
+
+  .formulario .lado2 .dados {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lado2 .dados input {
+    width: 21.2875rem;
+    height: 2.45625rem;
+  }
+
+  .lado2 .dados textarea {
+    width: 21.2875rem;
+    height: 4.9125rem;
+  }
+
+  .lado2 .dados label {
+    font-size: 0.81875rem;
+  }
+
+  /* Rede sociais */
+
+  #rede-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+    padding: 8% 0%;
+  }
+
+  #rede-mobile img {
+    width: 3.95269rem;
+    height: 3.95269rem;
+  }
 }
