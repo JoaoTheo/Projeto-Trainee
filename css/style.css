@@ -17,7 +17,7 @@ a {
 /* Cabeçalho */
 .cabecalho {
   display: flex;
-  white-space: nowrap;
+
   padding: 35px 170px 35.176px 190px;
   justify-content: center;
   align-items: center;
@@ -27,6 +27,10 @@ a {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   overflow: hidden;
+}
+
+.cabecalho #conteudo-mobile {
+  display: none;
 }
 
 #logo_cabecalho {
@@ -51,6 +55,7 @@ a {
   font-weight: 400;
   line-height: normal;
   padding: 0px 4px;
+  white-space: nowrap;
 }
 
 #navegar a:hover {
@@ -79,6 +84,11 @@ a {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.banner1 .conteudo #texto-mobile-banner1,
+.banner1 .figura .fundo-mobile {
+  display: none;
+}
+
 .conteudo {
   position: absolute;
   align-self: start;
@@ -92,7 +102,7 @@ a {
   padding: 202px 817px 176px 80px;
 }
 
-.conteudo h2 {
+.conteudo #texto-desk-banner1 {
   width: 500px;
 
   color: #063643;
@@ -304,7 +314,6 @@ a {
 .parte_2 {
   width: 1094.182px;
   height: 300px;
-
   border-radius: 8px;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #063643;
@@ -487,4 +496,144 @@ a {
 
 #radio3:checked ~ .parte_1 {
   margin-top: -60.2%;
+}
+
+/* ESTILIZAÇÃO PARA MOBILE */
+
+@media (max-width: 400px) {
+  html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .cabecalho {
+    width: 100%;
+
+    display: flex;
+    padding: 5% 0% 0% 3%;
+    gap: 5.82rem;
+    margin-top: 10%;
+  }
+
+  .cabecalho a {
+    display: none;
+  }
+
+  .cabecalho #conteudo-mobile {
+    display: flex;
+    gap: 5.8125rem;
+  }
+
+  /* Primeiro banner no Mobile */
+
+  .banner1 {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .banner1 .conteudo #texto-desk-banner1,
+  .banner1 .figura #onda {
+    display: none;
+  }
+
+  .banner1 .conteudo {
+    display: flex;
+    position: static;
+    padding: 5% 0% 0% 5%;
+  }
+
+  .banner1 .conteudo #texto-mobile-banner1 {
+    display: flex;
+    color: #063643;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .banner1 .figura .fundo-mobile {
+    position: absolute;
+    left: 39%;
+    bottom: -20%;
+    z-index: -1;
+    width: 12.8735rem;
+    height: 23.36738rem;
+    transform: rotate(-115.496deg);
+    display: flex;
+  }
+
+  .banner1 .banner1_imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    padding: 0% 0% 3% 10%;
+  }
+
+  .banner1 .banner1_imagem #animais {
+    width: 5.76925rem;
+    height: 4.61538rem;
+    position: static;
+    margin-right: -2%;
+  }
+
+  .banner1 .banner1_imagem #grupo_animais {
+    width: 11.53844rem;
+    height: 7.37144rem;
+    position: static;
+    margin-top: -12%;
+  }
+
+  .banner1 .banner1_imagem #gato {
+    width: 6.34613rem;
+    height: 4.95844rem;
+    position: static;
+
+    margin-left: -10%;
+  }
+
+  .banner1 .entre_contato {
+    position: static;
+    padding: 0%;
+    align-self: center;
+    padding: 0% 0% 10% 0%;
+  }
+
+  .banner1 .entre_contato a {
+    display: flex;
+    width: 10.5625rem;
+    height: 2.5rem;
+    padding: 0.34725rem 0.17363rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.34725rem;
+    flex-shrink: 0;
+    color: #f8f8ff;
+    font-family: "Poppins";
+    font-size: 0.97225rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .banner1 .entre_contato a:hover,
+  .banner1 .entre_contato a:active {
+    background-color: #7ccbe0;
+    color: #0f637a;
+    transition: 0.1s;
+  }
+
+  .carrossel_1 {
+    display: none;
+  }
 }
