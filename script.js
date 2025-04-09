@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+
   const btnVoltar1 = document.getElementById("voltar");
   const btnAvancar1 = document.getElementById("avancar");
   const slides = document.querySelectorAll(".partes > div");
@@ -55,8 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   btnVoltarComent?.addEventListener("click", () => {
-    currentComentario =
-      (currentComentario - 1 + abasComentarios.length) % abasComentarios.length;
+    currentComentario = (currentComentario - 1 + abasComentarios.length) % abasComentarios.length;
     showComentario(currentComentario);
   });
 
@@ -78,4 +78,24 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  document.querySelectorAll('.btn-mobile').forEach(button => {
+    button.addEventListener('touchstart', function() {
+      this.style.transform = 'scale(0.95)';
+    });
+    
+    button.addEventListener('touchend', function() {
+      this.style.transform = 'scale(1)';
+    });
+
+    button.addEventListener('mouseleave', function() {
+      this.style.transform = 'scale(1)';
+    });
+  });
+
+  const partes = document.querySelector('.partes');
+  const abas = document.querySelector('.abas');
+  
+  if (partes) partes.style.transition = 'transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+  if (abas) abas.style.transition = 'transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
 });

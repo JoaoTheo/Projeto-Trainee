@@ -11,6 +11,7 @@
 .comentario-container {
   width: 1180px;
   height: 626px;
+
   display: flex;
   flex-direction: column;
   gap: 52px;
@@ -54,6 +55,7 @@
   border: 1px solid #063643;
 
   display: inline-flex;
+
   cursor: pointer;
 }
 
@@ -69,6 +71,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
   padding-left: 15px;
 }
 
