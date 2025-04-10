@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-
   const btnVoltar1 = document.getElementById("voltar");
   const btnAvancar1 = document.getElementById("avancar");
   const slides = document.querySelectorAll(".partes > div");
@@ -60,6 +59,30 @@ document.addEventListener("DOMContentLoaded", function () {
     showComentario(currentComentario);
   });
 
+  if (btnVoltarComent && btnAvancarComent) {
+    btnVoltarComent.style.borderRadius = "50%";
+    btnVoltarComent.style.width = "40px";
+    btnVoltarComent.style.height = "40px";
+    btnVoltarComent.style.display = "flex";
+    btnVoltarComent.style.justifyContent = "center";
+    btnVoltarComent.style.alignItems = "center";
+    btnVoltarComent.style.backgroundColor = "#7CCBE0";
+    btnVoltarComent.style.color = "white";
+    btnVoltarComent.style.border = "none";
+    btnVoltarComent.style.cursor = "pointer";
+    
+    btnAvancarComent.style.borderRadius = "50%";
+    btnAvancarComent.style.width = "40px";
+    btnAvancarComent.style.height = "40px";
+    btnAvancarComent.style.display = "flex";
+    btnAvancarComent.style.justifyContent = "center";
+    btnAvancarComent.style.alignItems = "center";
+    btnAvancarComent.style.backgroundColor = "#7CCBE0";
+    btnAvancarComent.style.color = "white";
+    btnAvancarComent.style.border = "none";
+    btnAvancarComent.style.cursor = "pointer";
+  }
+
   showComentario(currentComentario);
 
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -78,24 +101,4 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
-
-  document.querySelectorAll('.btn-mobile').forEach(button => {
-    button.addEventListener('touchstart', function() {
-      this.style.transform = 'scale(0.95)';
-    });
-    
-    button.addEventListener('touchend', function() {
-      this.style.transform = 'scale(1)';
-    });
-
-    button.addEventListener('mouseleave', function() {
-      this.style.transform = 'scale(1)';
-    });
-  });
-
-  const partes = document.querySelector('.partes');
-  const abas = document.querySelector('.abas');
-  
-  if (partes) partes.style.transition = 'transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
-  if (abas) abas.style.transition = 'transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
 });
