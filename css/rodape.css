@@ -7,7 +7,7 @@ footer {
 .direitos {
   display: flex;
   max-width: 100%;
-  padding: 11px 0px;
+  padding: 1% 0%;
   justify-content: center;
   align-items: center;
   background: #063643;
@@ -16,7 +16,7 @@ footer {
 footer .direitos h2 {
   color: #e2f5fa;
   font-family: "Poppins";
-  font-size: 12px;
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -24,15 +24,17 @@ footer .direitos h2 {
 
 .rodape {
   margin-top: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 100px;
+  /*  margin-left: auto;
+  margin-right: auto; */
+  gap: 6rem;
   display: flex;
+  max-width: 100%;
   width: 1920px;
   height: 272px;
-  justify-content: left;
+  /* justify-content: left; */
   align-items: center;
-  position: relative;
+  justify-content: center;
+  /*   position: relative; */
 
   border-top: 1px solid #c7ebfb;
   border-bottom: 1px solid #c7ebfb;
@@ -42,101 +44,51 @@ footer .direitos h2 {
 .rodape h2 {
   color: #063643;
   font-family: "Poppins";
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-transform: uppercase;
 }
 
 .rodape p {
   color: #063643;
   font-family: "Poppins";
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-transform: uppercase;
 }
 
 .rodape .logo-rodape {
   display: flex;
   flex-direction: column;
-  margin-left: 240px;
-  gap: 10px;
-  margin-bottom: 90px;
+
+  gap: 0.64rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.logo-rodape #nome-rodape {
-  position: absolute;
-  left: 220px;
-}
-
-.rodape .nosso-servicos {
-  margin-left: 40px;
-}
-
-.rodape .nosso-servicos,
-.rodape .instituto {
-  margin-bottom: 30px;
-}
-
-.rodape .nosso-servicos h2 {
-  margin-bottom: 12px;
-}
-
-.rodape .nosso-servicos p {
-  margin-bottom: 8px;
-}
-
+.rodape .nosso-servicos h2,
 .rodape .instituto h2 {
-  margin-bottom: 12px;
+  padding-bottom: 0.75rem;
 }
 
+.rodape .nosso-servicos p,
 .rodape .instituto p {
-  margin-bottom: 8px;
+  padding-bottom: 0.5rem;
 }
 
 .rodape .redes {
   display: flex;
-  position: absolute;
+  flex-direction: column;
+  padding-bottom: 4rem;
 }
 
-.rodape .redes h2 {
-  position: absolute;
-  left: 1050px;
-  bottom: 59px;
-  white-space: nowrap;
-}
-
-.rodape .redes .whats {
-  position: absolute;
-  left: 1055px;
-  bottom: 5px;
-}
-
-.rodape .redes .insta #elipse {
-  position: absolute;
-  left: 1110px;
-  bottom: 9px;
-}
-
-.insta #insta {
-  position: absolute;
-  left: 1116px;
-  bottom: 14px;
-}
-
-.rodape .redes .face #elipse {
-  position: absolute;
-  left: 1165px;
-  bottom: 9px;
-}
-
-.face #face {
-  position: absolute;
-  left: 1170px;
-  bottom: 15px;
+.rodape .redes #rede-sociais {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  padding-top: 0.75rem;
 }
 
 @media (max-width: 400px) {
