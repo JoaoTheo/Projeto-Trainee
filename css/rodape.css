@@ -24,17 +24,13 @@ footer .direitos h2 {
 
 .rodape {
   margin-top: 3%;
-  /*  margin-left: auto;
-  margin-right: auto; */
   gap: 6rem;
   display: flex;
   max-width: 100%;
   width: 1920px;
   height: 272px;
-  /* justify-content: left; */
   align-items: center;
   justify-content: center;
-  /*   position: relative; */
 
   border-top: 1px solid #c7ebfb;
   border-bottom: 1px solid #c7ebfb;

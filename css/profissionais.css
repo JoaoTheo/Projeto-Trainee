@@ -67,11 +67,6 @@
     width: 100%;
     height: auto;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    /*  padding-top: 5%; */
-    /* border-radius: 0px; */
-    /* box-shadow: none; */
-    /* gap: 0.8rem; */
     margin-top: -60%;
     position: relative;
     z-index: 2;
@@ -92,9 +87,6 @@
     gap: 0.8rem;
     background: #f8f8ff;
     padding: 8% 0%;
-    /*   margin-top: -60%; */
-    /* padding-bottom: 5%; */
-    /* z-index: 2; */
   }
 
   .profissionais h2 {
