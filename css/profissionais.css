@@ -3,15 +3,16 @@
   height: 460px;
 
   display: flex;
-  position: relative;
-
   align-items: center;
   justify-content: center;
-
   border-radius: 8px;
   background: #f8f8ff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
   margin: 48px auto 0px auto;
+}
+
+.profissionais #doutores {
+  display: inline-flex;
 }
 
 .profissionais h2 {
@@ -65,18 +66,41 @@
   .profissionais {
     width: 100%;
     height: auto;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /*  padding-top: 5%; */
+    /* border-radius: 0px; */
+    /* box-shadow: none; */
+    /* gap: 0.8rem; */
+    margin-top: -60%;
+    position: relative;
+    z-index: 2;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .profissionais #doutores {
+    display: flex;
+    width: 100%;
+    height: auto;
     flex-wrap: wrap;
     padding-top: 5%;
+    justify-content: center;
     border-radius: 0px;
     box-shadow: none;
     gap: 0.8rem;
-    margin-top: -60%;
-    padding-bottom: 5%;
-    z-index: 2;
+    background: #f8f8ff;
+    padding: 8% 0%;
+    /*   margin-top: -60%; */
+    /* padding-bottom: 5%; */
+    /* z-index: 2; */
   }
 
   .profissionais h2 {
-    padding: 0% 0% 142% 0%;
+    position: static;
+    padding: 0% 5% 10% 5%;
+    background-color: #e2f5fa;
   }
 
   .profissionais .doutor1,
